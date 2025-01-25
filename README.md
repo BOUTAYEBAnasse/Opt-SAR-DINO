@@ -1,22 +1,36 @@
-# Opt-SAR DINO Model
+#🦖🛰️ OPT-SAR DINO Object Detection Project
 
-Welcome to the Opt-SAR DINO repository! This project is dedicated to object detection on optical and SAR images, specifically designed for small-scale objects. The repository includes:
+This repository presents the **OPT-SAR DINO** model, designed for small-scale object detection tasks on optical and SAR images. It utilizes the following datasets:
+- **Pleiades Aircraft Dataset** for optical imagery.
+- **SSDD Dataset** for ship detection on SAR imagery.
 
-## Datasets
-1. **Pleiades Aircraft Dataset**: For object detection on optical images (aircraft detection).
-2. **SSDD Dataset**: For object detection on radar images (ship detection).
+---
 
-## Structure
-```
-root/
+## 📊 Notebooks for Benchmarking 
+
+This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
+- **OPT-SAR DINO**
+- **Deformable DETR** (Zhu et al., 2021)
+- **DETR** (Carion et al., 2020)
+- **Faster R-CNN** (Ren et al., 2015)
+- **YOLOV10** (Redmon et al., 2016 – YOLO foundation)
+- **RetinaNet** (Lin et al., 2017)
+
+---
+
+## 📁 Repository Structure
+
+SAR imagery dataset.
+This repository is structured as follows: 
+Repository/
 │
 ├── Pleiades Aircraft Dataset/
-│   ├── Opt-SAR-DINO.ipynb
+│   ├── OPT-SAR-DINO.ipynb 
 │   ├── Deformable DETR.ipynb
 │   ├── DETR.ipynb
 │   ├── Faster R-CNN.ipynb
 │   ├── YOLOV10.ipynb
-│   └── RetinaNet.ipynb
+│   ├── RetinaNet.ipynb
 │
 ├── SSDD Dataset/
 │   ├── OPT-SAR-DINO.ipynb
@@ -24,23 +38,30 @@ root/
 │   ├── DETR.ipynb
 │   ├── Faster R-CNN.ipynb
 │   ├── YOLOV10.ipynb
-│   └── RetinaNet.ipynb
+│   ├── RetinaNet.ipynb
 │
-└── README.txt
-```
+└── README.txt 
 
-## Execution of Notebooks
-All notebooks are designed to be executed in a Google Colab environment. We strongly recommend using a GPU for training and evaluation, preferably **NVIDIA A100** for optimal performance.
+---
 
-## Testing and Visualization
-Each notebook includes:
-- **Visualization** of predictions.
-- Calculation of evaluation metrics:
-  - Precision
-  - Recall
-  - F1-Score
-  - mAP@50
-  - mAP@75
-  - mAP@[0.5:0.95]
+## ▶️ Execution Instructions
 
-Feel free to explore and contribute!
+To execute these notebooks, use **Google Colab** with a **GPU environment**. For optimal performance, it's recommended to use an **NVIDIA A100 GPU**.
+
+---
+
+## 🧪 Testing Phase 
+
+The testing phase includes:
+1. Visualizing predictions.
+2. Calculating the following metrics:
+   - **Precision**
+   - **Recall**
+   - **F1-Score**
+   - **mAP@50**
+   - **mAP@75**
+   - **mAP@[0.5:0.95]**
+
+---
+
+Thank you for exploring this project!
