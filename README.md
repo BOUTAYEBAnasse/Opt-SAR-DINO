@@ -4,17 +4,16 @@ This repository presents the **OPT-SAR DINO** model, designed for small-scale ob
 - **Pleiades Aircraft Dataset** for optical imagery.
 - **SSDD Dataset** for ship detection on SAR imagery.
 
-![Couverture](assets/cover.jpg)
+![Couverture](assets/GITHUB_COVER.PNG)
 
 ## 📊 Notebooks for Benchmarking 
 
 This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
 - **OPT-SAR DINO**
 - **Deformable DETR** (Zhu et al., 2021)
-- **DETR** (Carion et al., 2020)
 - **Faster R-CNN** (Ren et al., 2015)
 - **YOLOV10** (Redmon et al., 2016 – YOLO foundation)
-- **RetinaNet** (Lin et al., 2017)
+
 
 ---
 
@@ -27,18 +26,13 @@ Repository/
 ├── Pleiades Aircraft Dataset/
 │   ├── OPT-SAR-DINO.ipynb 
 │   ├── Deformable DETR.ipynb
-│   ├── DETR.ipynb
 │   ├── Faster R-CNN.ipynb
 │   ├── YOLOV10.ipynb
-│   ├── RetinaNet.ipynb
-│
 ├── SSDD Dataset/
 │   ├── OPT-SAR-DINO.ipynb
 │   ├── Deformable DETR.ipynb
-│   ├── DETR.ipynb
 │   ├── Faster R-CNN.ipynb
 │   ├── YOLOV10.ipynb
-│   ├── RetinaNet.ipynb
 │
 └── README.txt 
 
