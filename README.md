@@ -19,22 +19,7 @@ This repository contains benchmarking notebooks for each dataset. For both **Ple
 
 ## 📁 Repository Structure
 
-SAR imagery dataset.
-This repository is structured as follows: 
-Repository/
-│
-├── Pleiades Aircraft Dataset/
-│   ├── OPT-SAR-DINO.ipynb 
-│   ├── Deformable DETR.ipynb
-│   ├── Faster R-CNN.ipynb
-│   ├── YOLOV10.ipynb
-├── SSDD Dataset/
-│   ├── OPT-SAR-DINO.ipynb
-│   ├── Deformable DETR.ipynb
-│   ├── Faster R-CNN.ipynb
-│   ├── YOLOV10.ipynb
-│
-└── README.txt 
+The proposed notebooks contain implementations of each model, our own (OPT-SAR DINO) and the other object detectors used for benchmarking. We present one notebook for each model and dataset, 8 in all.
 
 ---
 
