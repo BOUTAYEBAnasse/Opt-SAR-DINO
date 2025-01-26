@@ -16,7 +16,7 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 
 **OPT-SAR DINO Architecture**
 
-![Description du graphique](assets/DINO-Model - reduced.png)
+![Description du graphique](assets/DINO-Model-reduced.png)
 
 ## 📊 Notebooks for Benchmarking 
 
