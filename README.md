@@ -23,8 +23,11 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
 - **OPT-SAR DINO**
 - **Deformable DETR** (Zhu et al., 2021)
+- **Deformable DETR** (Carion et al., 2020)
+- **YOLO** (Redmon et al., 2016)
+- **RetinaNet** (Lin et al., 2017)
 - **Faster R-CNN** (Ren et al., 2015)
-- **YOLOV10** (Redmon et al., 2016 – YOLO foundation)
+
 
 
 ---
