@@ -30,13 +30,18 @@ This repository contains benchmarking notebooks for each dataset. For both **Ple
 - **RetinaNet** (Lin et al., 2017)
 - **Faster R-CNN** (Ren et al., 2015)
 
-
-
 ---
-
 ## 📁 Repository Structure
 
 The proposed notebooks contain implementations of each model, our own (OPT-SAR DINO) and the other object detectors used for benchmarking. We present one notebook for each model and dataset, 12 in all.
+---
+# 🛠️ Data to be used
+
+This Google Drive link **[Google Drive Link](https://drive.google.com/drive/folders/169pPSf4iCSqu7Zme9-hzyOOWLY8_EH4Y?usp=sharing)** contains all the resources required to execute this project. The available resources include:
+
+1. **Dataset images**: The image files from the two datasets used in this project.
+2. **Pre-trained DINO-DETR model**: The `.pth` file of the DINO-DETR model, pre-trained on COCO dataset.
+3. **Customized DINO-DETR parent directory**: A modified and customized version of the DINO-DETR directory, including specific code and configurations.
 
 ---
 
