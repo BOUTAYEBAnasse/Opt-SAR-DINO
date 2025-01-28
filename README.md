@@ -60,7 +60,7 @@ The testing phase includes:
 
 ## 🏆 Results
 ### **Pleiades Aircraft Dataset**
-<div style="font-size: 1px;">
+<sub>
 
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
@@ -71,11 +71,11 @@ The testing phase includes:
 | Faster R-CNN    | 435.22       | 81.66 | 78.97 | 73.77 | 91.61 | 73.93 | 62.53 |
 | RetinaNet       | 719.46       | 74.76 | 69.56 | 55.80 | 86.75 | 78.02 | 64.54 |
 
-</div>
+</sub>
 
 ### **SSDD SAR Dataset**
 
-<div style="font-size: 1px;">
+<sub>
 
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
@@ -86,5 +86,5 @@ The testing phase includes:
 | Faster R-CNN    | 2152.24      | 90.36 | 87.23 | 88.77 | 91.61 | 73.93 | 62.53 |
 | RetinaNet       | 3997.13      | 83.85 | 83.13 | 82.80 | 86.75 | 78.02 | 64.54 |
 
-</div>
+</sub>
 
