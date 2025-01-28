@@ -60,7 +60,7 @@ The testing phase includes:
 
 ---
 
-## 🏆 Metric results (%)
+## 🏆 Metric results for 12 epochs (%)
 ### **Pleiades Aircraft Dataset**
 
 | Model            | Training Time (s) | Precision | Recall | F1-Score | mAP@50 | mAP@75 | mAP@[0.5:0.95] |
