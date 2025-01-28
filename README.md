@@ -4,7 +4,7 @@ This repository presents the **OPT-SAR DINO** model, designed for small-scale ob
 - **Pleiades Aircraft Dataset** for optical imagery.
 - **SSDD Dataset** for ship detection on SAR imagery.
 
-<img src="assets/GITHUB_COVER.PNG" alt="Description du graphique" width="75%" align="center">
+![couverture](assets/GITHUB_COVER.PNG)
 
 ## 🤖 OPT-SAR DINO model
 
@@ -16,7 +16,7 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 
 **OPT-SAR DINO Architecture**
 
-<img src="assets/DINO-Model-reduced.png" alt="Description du graphique" width="75%" align="center">
+![Description du graphique](assets/DINO-Model-reduced.png)
 
 ## 📊 Notebooks for Benchmarking 
 
