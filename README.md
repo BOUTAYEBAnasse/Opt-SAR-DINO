@@ -58,10 +58,10 @@ The testing phase includes:
 
 ---
 
-## 🏆 Results
+## 🏆 Metric results (%)
 ### **Pleiades Aircraft Dataset**
 
-| Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
+| Model                | Training Time (s) | Precision | Recall | F1-Score | mAP@50 | mAP@75 | mAP@[0.5:0.95] |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
 | OPT-SAR DINO    | 3099.30      | 96.65 | 94.54 | 78.49 | 98.30 | 92.27 | 78.43 |
 | Deformable DETR | 3370.16      | 92.31 | 88.66 | 75.14 | 89.42 | 89.42 | 76.75 |
@@ -72,7 +72,7 @@ The testing phase includes:
 
 ### **SSDD SAR Dataset**
 
-| Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
+| Model                | Training Time (s) | Precision | Recall | F1-Score | mAP@50 | mAP@75 | mAP@[0.5:0.95] |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
 | OPT-SAR DINO    | 279.43       | 99.97 | 95.93 | 97.91 | 98.30 | 92.27 | 78.43 |
 | Deformable DETR | 3370.16      | 92.96 | 86.71 | 76.75 | 89.42 | 89.42 | 76.75 |
