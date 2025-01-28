@@ -6,6 +6,10 @@ This repository presents the **OPT-SAR DINO** model, designed for small-scale ob
 <center>
 ![couverture](assets/GITHUB_COVER.PNG)
 </center>
+<div align="center" style="border: 2px solid black; padding: 10px; background-color: #f8f8f8;">
+    <img src="assets/GITHUB_COVER.PNG" alt="Description du graphique" width="500">
+</div>
+
 ## 🤖 OPT-SAR DINO model
 
 Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with Improved Non-degenerate Objectives*), an advanced architecture for object detection introduced by Zhang et al. (2022). DINO improves the performance of transforming models through bipartite optimization and efficient regularization targets.
@@ -15,9 +19,9 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 **OPT-SAR DINO** model integrates deformable attention mechanisms to better handle objects of different scales and locations in images. It also exploits the **CDN (Conditional Denoising)** approach to improve training stability and convergence.
 
 **OPT-SAR DINO Architecture**
-<center>
-![Description du graphique](assets/DINO-Model-reduced.png)
-</center>center>
+<div align="center" style="border: 2px solid black; padding: 10px; background-color: #f8f8f8;">
+    <img src="assets/DINO-Model-reduced.png" alt="Description du graphique" width="500">
+</div>
 ## 📊 Notebooks for Benchmarking 
 
 This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
