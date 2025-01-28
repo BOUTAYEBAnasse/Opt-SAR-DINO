@@ -61,6 +61,7 @@ The testing phase includes:
 ## 🏆 Results
 ### **Pleiades Aircraft Dataset**
 <div style="font-size: 12px;">
+
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
 | OPT-SAR DINO    | 3099.30      | 96.65 | 94.54 | 78.49 | 98.30 | 92.27 | 78.43 |
@@ -69,6 +70,7 @@ The testing phase includes:
 | YOLO V10        | 3750.52      | 97.34 | 76.00 | 65.36 | 80.05 | 78.46 | 73.44 |
 | Faster R-CNN    | 435.22       | 81.66 | 78.97 | 73.77 | 91.61 | 73.93 | 62.53 |
 | RetinaNet       | 719.46       | 74.76 | 69.56 | 55.80 | 86.75 | 78.02 | 64.54 |
+
 </div>
 
 ### **SSDD SAR Dataset**
