@@ -5,7 +5,7 @@ This repository presents the **OPT-SAR DINO** model, designed for small-scale ob
 - **SSDD Dataset** for ship detection on SAR imagery.
 
 <div align="center" style="border: 2px solid black; padding: 10px; background-color: #f8f8f8;">
-    <img src="assets/GITHUB_COVER.PNG" alt="Description du graphique" width="800">
+    <img src="assets/GITHUB_COVER.PNG" alt="Description du graphique" width="650">
 </div>
 
 ## 🤖 OPT-SAR DINO model
