@@ -8,7 +8,7 @@ This repository presents the **OPT-SAR DINO** model, designed for small-scale ob
     <img src="assets/GITHUB_COVER.PNG" alt="Description du graphique" width="650">
 </div>
 
-## 🤖 OPT-SAR DINO model
+# 🤖 OPT-SAR DINO model
 
 Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with Improved Non-degenerate Objectives*), an advanced architecture for object detection introduced by Zhang et al. (2022). DINO improves the performance of transforming models through bipartite optimization and efficient regularization targets.
 
@@ -20,7 +20,8 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 <div align="center" style="border: 2px solid black; padding: 10px; background-color: #f8f8f8;">
     <img src="assets/DINO-Model-reduced.png" alt="Description du graphique" width="800">
 </div>
-## 📊 Notebooks for Benchmarking 
+
+# 📊 Notebooks for Benchmarking 
 
 This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
 - **OPT-SAR DINO**
@@ -31,7 +32,7 @@ This repository contains benchmarking notebooks for each dataset. For both **Ple
 - **Faster R-CNN** (Ren et al., 2015)
 
 ---
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 The proposed notebooks contain implementations of each model, our own (OPT-SAR DINO) and the other object detectors used for benchmarking. We present one notebook for each model and dataset, 12 in all.
 ---
@@ -45,13 +46,13 @@ This Google Drive link **[Google Drive Link](https://drive.google.com/drive/fold
 
 ---
 
-## ▶️ Execution Instructions
+# ▶️ Execution Instructions
 
 To execute these notebooks, use **Google Colab** with a **GPU environment**. For optimal performance, it's recommended to use an **NVIDIA A100 GPU**.
 
 ---
 
-## 🧪 Testing Phase 
+# 🧪 Testing Phase 
 
 The testing phase includes:
 1. Visualizing predictions.
@@ -65,7 +66,7 @@ The testing phase includes:
 
 ---
 
-## 🏆 Metric results for 12 epochs (%)
+# 🏆 Metric results for 12 epochs (%)
 ### **Pleiades Aircraft Dataset**
 
 | Model            | Training Time (s) | Precision | Recall | F1-Score | mAP@50 | mAP@75 | mAP@[0.5:0.95] |
