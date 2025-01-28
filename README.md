@@ -59,8 +59,8 @@ The testing phase includes:
 ---
 
 ## 🏆 Results
-
 ### **Pleiades Aircraft Dataset**
+<div style="font-size: 12px;">
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
 | OPT-SAR DINO    | 3099.30      | 96.65 | 94.54 | 78.49 | 98.30 | 92.27 | 78.43 |
@@ -71,6 +71,7 @@ The testing phase includes:
 | RetinaNet       | 719.46       | 74.76 | 69.56 | 55.80 | 86.75 | 78.02 | 64.54 |
 
 ### **SSDD SAR Dataset**
+<div style="font-size: 12px;">
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
 | OPT-SAR DINO    | 279.43       | 99.97 | 95.93 | 97.91 | 98.30 | 92.27 | 78.43 |
