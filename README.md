@@ -60,7 +60,7 @@ The testing phase includes:
 
 ## 🏆 Results
 ### **Pleiades Aircraft Dataset**
-<div style="font-size: 12px;">
+<div style="font-size: 8px;">
 
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
@@ -75,7 +75,7 @@ The testing phase includes:
 
 ### **SSDD SAR Dataset**
 
-<div style="font-size: 12px;">
+<div style="font-size: 8px;">
 
 | Model                | Training Time (s) | Precision (%) | Recall (%) | F1-Score (%) | mAP@50 (%) | mAP@75 (%) | mAP@[0.5:0.95] (%) |
 |----------------------|-----------------|-----------|--------|----------|--------|--------|--------------|
