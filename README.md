@@ -15,9 +15,9 @@ Our **OPT-SAR DINO** model is inspired by **DINO** (*DEtection TRansformer with 
 **OPT-SAR DINO** model integrates deformable attention mechanisms to better handle objects of different scales and locations in images. It also exploits the **CDN (Conditional Denoising)** approach to improve training stability and convergence.
 
 **OPT-SAR DINO Architecture**
-<sub>
-![Description du graphique](assets/DINO-Model-reduced.png)
-</sub>
+
+<img src="assets/DINO-Model-reduced.png" alt="Description du graphique" width="50%">
+
 ## 📊 Notebooks for Benchmarking 
 
 This repository contains benchmarking notebooks for each dataset. For both **Pleiades Aircraft Dataset** and **SSDD Dataset**, the following models are implemented:
