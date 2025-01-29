@@ -57,6 +57,7 @@ To execute these notebooks, use **Google Colab** with a **GPU environment**. For
 The testing phase includes:
 1. Visualizing predictions.
 2. Calculating the following metrics:
+   
    - **Precision**
    - **Recall**
    - **F1-Score**
